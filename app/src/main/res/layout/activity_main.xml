@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+
     <EditText
         android:id="@+id/txtNumero"
         android:layout_width="match_parent"
@@ -19,19 +20,15 @@
         android:layout_width="match_parent"
         android:layout_height="85dp"
         android:onClick="calcularCambio"
-        android:text="Activar calculadora"
-        android:textSize="15dp"
-
-        />
+        android:text="Calcular Cambio"
+        android:textSize="15dp" />
 
     <TextView
         android:id="@+id/txtResult"
         android:layout_width="match_parent"
         android:layout_height="142dp"
         android:layout_marginTop="100dp"
-        android:onClick="calcularCambio"
         android:textSize="15dp"
-
         />
 
 </FrameLayout>
