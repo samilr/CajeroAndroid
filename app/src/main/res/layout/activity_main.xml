@@ -37,6 +37,24 @@
         android:layout_marginTop="625dp"
         app:srcCompat="@mipmap/itla" />
 
+
+    <ImageView
+        android:id="@+id/swipeRight"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="410dp"
+        app:srcCompat="@drawable/right" />
+
+    <ImageView
+        android:id="@+id/swipeLeft"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="410dp"
+        android:layout_marginLeft="185dp"
+        app:srcCompat="@drawable/left" />
+
+
+
     <Button
         android:id="@+id/btnBlanco"
         android:layout_width="match_parent"
@@ -77,6 +95,8 @@
         android:backgroundTint="#217347"
         android:onClick="defaultApp"
         android:text="Restablecer TEMA" />
+
+
 
 
 </FrameLayout>
