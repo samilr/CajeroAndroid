@@ -238,14 +238,12 @@ public class MainActivity extends AppCompatActivity implements GestureDetector.O
         layoutInicio.setBackgroundResource(R.color.white);
         txtNumero.setTextColor(getResources().getColor(R.color.black));
         txtResult.setTextColor(getResources().getColor(R.color.black));
-        txtNumero.setBackgroundColor(getResources().getColor(R.color.white));
         txtNumero.setHintTextColor(getResources().getColor(R.color.black));
     }
     public void colorGris(View view) {
         layoutInicio.setBackgroundResource(R.color.gray);
         txtNumero.setTextColor(getResources().getColor(R.color.black));
         txtResult.setTextColor(getResources().getColor(R.color.black));
-        txtNumero.setBackgroundColor(getResources().getColor(R.color.transparent));
         txtNumero.setHintTextColor(getResources().getColor(R.color.black));
     }
     public void colorDarkGris(View view) {
@@ -258,7 +256,6 @@ public class MainActivity extends AppCompatActivity implements GestureDetector.O
         layoutInicio.setBackgroundResource(R.color.black);
         txtNumero.setTextColor(getResources().getColor(R.color.white));
         txtResult.setTextColor(getResources().getColor(R.color.white));
-        txtNumero.setBackgroundColor(getResources().getColor(R.color.black));
         txtNumero.setHintTextColor(getResources().getColor(R.color.white));
     }
     public void defaultApp(View view) {
